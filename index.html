@@ -5,22 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>네이버 클론코딩</title>
     <link rel="stylesheet" href="css/header.css">
-    <style>
-        * {
-            box-sizing: border-box;
-        }
-        html {
-            font-size: 15px;
-            line-height: 18px;
-        }
-        body {
-            width: 1280px;
-            margin: auto;
-        }
-        .flex {
-            display: flex;
-        }
-    </style>
+    <link rel="stylesheet" href="css/main_section.css">
+    <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
     <header class="header">
@@ -35,15 +21,15 @@
                 <li>장바구니</li>
             </ul>
         </nav>
-        <div class="search">
+        <div class="search flex">
             <div class="search_bar flex">
                 <div class="search_bar_logo">
-                    네이버
+                    N
                 </div>
                 <form class="search_bar_field">
                     <input type="text" class="search_bar_field_input" name="user-search">
                 </form>
-                <div class="search_bar_incons">
+                <div class="search_bar_incons flex">
                     <div class="search_bar_incons_keyboard">
                         입력 도구
                     </div>
@@ -53,7 +39,7 @@
                 </div>
             </div>
             <div class="search_links">
-                <ul class="serch_links_list flex">
+                <ul class="search_links_list flex">
                     <li>메일</li>
                     <li>카페</li>
                     <li>블로그</li>
@@ -68,16 +54,55 @@
             </div>
         </div>
     </header>
-    <div class="container">
-        <main class="main">
+    <main class="main flex">
+        <section class="main_section">
+            <aside class="main_section_ad box flex">
+                <div class="main_section_ad_container flex">
+                    <div class="main_section_ad_logo">SAMSUNG</div>
+                    <div class="main_section_ad_content">
+                        <h1>갤럭시 Z폴드7 스페셜컬리</h1>
+                        <div>삼성 카드 결제일 할인 3% 무이자할부<br>12/24개월</div>
+                    </div>
+                </div>
+                <button class="main_section_ad_btn">지금 구매하기 ></button>
+            </aside>
+            <article class="main_section_news box">
 
-        </main>
-        <aside class="aside">
+            </article>
+            <article class="main_section_shops box">
 
+            </article>
+            <article class="main_section_blogs box">
+
+            </article>
+        </section>
+        <aside class="main_aside">
+            <section class="main_aside_user-info box">
+                <div class="main_aside_user-info_profile flex">
+                    <div class="user_pic"></div>
+                    <div class="user_mail">
+                        <div>모루불님</div>
+                        <div>helloworld@naver.com</div>
+                        <ul class="flex">
+                            <li>시작하기</li>
+                            <li>쪽지 <span>0</span></li>
+                            <li>해피빈</li>
+                        </ul>
+                    </div>
+                    <button class="user_logout">로그아웃</button>
+                </div>
+                <div class="main_aside_user-info_list"></div>
+            </section>
+            <aside class="main-aside_ad box"></aside>
+            <aside class="main-aside_ad box"></aside>
+            <aside class="main-aside_ad box"></aside>
+            <aside class="main-aside_ad box"></aside>
+            <aside class="main-aside_ad box"></aside>
+            <aside class="main-aside_ad box"></aside>
         </aside>
-    </div>
-    <fooer class="footer">
+    </main>
+    <footer class="footer">
 
-    </fooer>
+    </footer>
 </body>
 </html>

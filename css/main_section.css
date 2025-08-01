@@ -1,0 +1,48 @@
+.main {
+    justify-content: space-between;
+}
+
+.main_section {
+    width: 69%;
+}
+
+.main_section_ad {
+    justify-content: space-between;
+    align-items: center;
+    height: 130px;
+}
+
+.main_section_ad_container {
+    align-items: center;
+    margin-left: 30px;
+}
+
+.main_section_ad_content h1 {
+    margin: 0 0 10px 0;
+}
+
+.main_section_ad_logo {
+    width: 72px;
+    height: 72px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 72px;
+    border: 1px solid #E3E5E8;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.main_section_ad_btn {
+    width: 145.48px;
+    height: 50px;
+    margin: 0 30px 0 0;
+    background-color: #57858A;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.main_aside {
+    width: 29%;
+}
