@@ -6,7 +6,9 @@
     <title>네이버 클론코딩</title>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main_section.css">
+    <link rel="stylesheet" href="css/main_aside.css">
     <link rel="stylesheet" href="css/global.css">
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico">
 </head>
 <body>
     <header class="header">
@@ -24,7 +26,9 @@
         <div class="search flex">
             <div class="search_bar flex">
                 <div class="search_bar_logo">
-                    N
+                    <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.273 12.845 7.376 0H0v24h7.727V11.155L16.624 24H24V0h-7.727v12.845z"></path>
+                    </svg>
                 </div>
                 <form class="search_bar_field">
                     <input type="text" class="search_bar_field_input" name="user-search">
@@ -60,19 +64,19 @@
                 <div class="main_section_ad_container flex">
                     <div class="main_section_ad_logo">SAMSUNG</div>
                     <div class="main_section_ad_content">
-                        <h1>갤럭시 Z폴드7 스페셜컬리</h1>
+                        <h1>갤럭시 Z폴드7 스페셜컬러</h1>
                         <div>삼성 카드 결제일 할인 3% 무이자할부<br>12/24개월</div>
                     </div>
                 </div>
                 <button class="main_section_ad_btn">지금 구매하기 ></button>
             </aside>
-            <article class="main_section_news box">
+            <article class="main_section_article news box">
 
             </article>
-            <article class="main_section_shops box">
+            <article class="main_section_article shops box">
 
             </article>
-            <article class="main_section_blogs box">
+            <article class="main_section_article blogs box">
 
             </article>
         </section>
@@ -80,18 +84,24 @@
             <section class="main_aside_user-info box">
                 <div class="main_aside_user-info_profile flex">
                     <div class="user_pic"></div>
-                    <div class="user_mail">
-                        <div>모루불님</div>
-                        <div>helloworld@naver.com</div>
+                    <div class="user">
+                        <div class="user_name">모루불님</div>
+                        <div class="user_email">helloworld@naver.com</div>
                         <ul class="flex">
                             <li>시작하기</li>
                             <li>쪽지 <span>0</span></li>
                             <li>해피빈</li>
                         </ul>
                     </div>
-                    <button class="user_logout">로그아웃</button>
+                    <button class="user_logout_btn">로그아웃</button>
                 </div>
                 <div class="main_aside_user-info_list"></div>
+                <ul class="user_links flex">
+                    <li>메일</li>
+                    <li>카페</li>
+                    <li>블로그</li>
+                    <li>페이</li>
+                </ul>
             </section>
             <aside class="main-aside_ad box"></aside>
             <aside class="main-aside_ad box"></aside>

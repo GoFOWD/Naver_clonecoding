@@ -41,8 +41,6 @@
     font-weight: bold;
     font-size: 1.1rem;
     border: none;
+    border-radius: 25px;
 }
 
-.main_aside {
-    width: 29%;
-}
